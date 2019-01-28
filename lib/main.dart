@@ -100,11 +100,19 @@ class HomePage extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(24.0),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            Text(day),
-            Icon(iconData),
-            Text(temp),
+            Expanded(
+              child: Text(day),
+            ),
+            Expanded(
+              child: Icon(iconData),
+            ),
+            Expanded(
+              child: Text(
+                temp,
+                textAlign: TextAlign.end,
+              ),
+            ),
           ],
         ),
       ),
