@@ -68,7 +68,7 @@ class HomePage extends StatelessWidget {
           right: 8.0,
           bottom: 8.0,
           child: Text(
-            "31C",
+            "31°C",
             style: TextStyle(
               fontSize: 30.0,
               fontWeight: FontWeight.bold,
@@ -84,12 +84,12 @@ class HomePage extends StatelessWidget {
       padding: const EdgeInsets.all(16.0),
       child: Column(
         children: <Widget>[
-          dayWidget("Lunes", Icons.wb_sunny, "32C"),
-          dayWidget("Martes", Icons.wb_cloudy, "32C"),
-          dayWidget("Miércoles", Icons.wb_iridescent, "32C"),
-          dayWidget("Jueves", Icons.wb_sunny, "32C"),
-          dayWidget("Viernes", Icons.wb_sunny, "32C"),
-          dayWidget("Lunes", Icons.wb_sunny, "32C")
+          dayWidget("Lunes", Icons.wb_sunny, "32°C"),
+          dayWidget("Martes", Icons.wb_cloudy, "32°C"),
+          dayWidget("Miércoles", Icons.wb_iridescent, "32°C"),
+          dayWidget("Jueves", Icons.wb_sunny, "32°C"),
+          dayWidget("Viernes", Icons.wb_sunny, "32°C"),
+          dayWidget("Lunes", Icons.wb_sunny, "32C°")
         ],
       ),
     );
